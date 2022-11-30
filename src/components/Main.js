@@ -11,17 +11,17 @@ class Main extends React.Component {
             },
             {
                 name: "Bulbasaur",
-                image: "#",
+                image: "./images/bulbasaur.png",
                 introduction: "Bulbasaur adalah pokemon"
             },
             {
                 name: "Blastoise",
-                image: "#",
+                image: "./images/blastoise.png",
                 introduction: "Blastoise adalah pokemon bukan gundam"
             },
             {
                 name: "Charmander",
-                image: "#",
+                image: "./images/charmander.png",
                 introduction: "Charmander adalah pokemon"
             }
         ]
