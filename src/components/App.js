@@ -11,7 +11,7 @@ function App() {
         <Header />
         <Routes>
           <Route path='/' element={<Main />} />
-          <Route path='/Detail/:id' element={<DetailPage />} />
+          <Route path='/pokemon/:id' element={<DetailPage />} />
         </Routes>
         <Footer />
       </BrowserRouter>
