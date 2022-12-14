@@ -7,14 +7,14 @@ import DetailPage from "./DetailPage";
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <HashRouter>
         <Header />
         <Routes>
           <Route path='/' element={<Main />} />
           <Route path='/pokemon/:id' element={<DetailPage />} />
         </Routes>
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </div>
 
   );
